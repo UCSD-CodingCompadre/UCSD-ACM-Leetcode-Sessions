@@ -8,6 +8,10 @@ abs(i - j) <= indexDiff.
 abs(nums[i] - nums[j]) <= valueDiff, and
 Return true if such pair exists or false otherwise.
 */
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+using namespace std;
 bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff, int valueDiff) 
 {
 
@@ -79,4 +83,9 @@ bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff, int valueDi
     }    
 
     return false;
+}
+
+int main()
+{
+    
 }
