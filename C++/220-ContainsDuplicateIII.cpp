@@ -84,8 +84,3 @@ bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff, int valueDi
 
     return false;
 }
-
-int main()
-{
-    
-}
