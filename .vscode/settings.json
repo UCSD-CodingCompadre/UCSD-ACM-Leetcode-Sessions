@@ -4,5 +4,6 @@
         "xlocale": "cpp",
         "unordered_set": "cpp",
         "xhash": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
